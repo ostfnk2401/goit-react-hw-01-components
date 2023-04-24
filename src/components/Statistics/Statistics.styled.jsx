@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 export const StatisticsSection = styled.section`
-padding: 40px 0 3px;
+padding: 40px 0 0;
  background-color: white;
  border-radius: 5px;
  box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.2);
@@ -14,6 +14,7 @@ export const StatisticsList = styled.ul`
 display: flex;
 list-style: none;
 padding: 0;
+margin:16px 0 0;
 `
 
 export const StatisticsBox = styled.li`
